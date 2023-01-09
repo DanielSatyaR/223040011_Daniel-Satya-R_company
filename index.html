@@ -12,26 +12,27 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="About">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">BLUELOCK</a>
+    <!-- NAVBARNYA -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <h5>BLUELOCK</h5>
+        </a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#Home"
-                >Home</a
-              >
+              <a class="nav-link" href="#Home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#About">About</a>
@@ -40,48 +41,211 @@
               <a class="nav-link" href="#Character">Character</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Gallery</a>
+              <a class="nav-link" href="#Gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-  </body>
-  <body>
-    <div class="Home" id="Home">
-      <h1>Home</h1>
-    </div>
-    <img src="/img/blue.png" class="rounded mx-auto d-block" alt="blue" />
-    <p>
-      Blue Lock (Japanese: ブルーロック, Hepburn: Burū Rokku) (stylized as
-      BLUELOCK) is a Japanese manga series written by Muneyuki Kaneshiro and
-      illustrated by Yusuke Nomura. It has been serialized in Kodansha's Weekly
-      Shōnen Magazine since August 2018, with its chapters collected in 22
-      tankōbon volumes as of December 2022. An anime television series
-      adaptation produced by Eight Bit premiered in October 2022.
-    </p>
-    <div class="About" id="About">
-      <h1>About</h1>
-    </div>
-    <img src="/img/lock.png" class="rounded mx-auto d-block" alt="blue" />
-    <p>
-      Blue Lock adalah sebuah seri manga yang ditulis oleh Muneyuki Kaneshiro
-      dan diilustrasikan oleh Yusuke Nomura. Seri ini mulai dimuat dalam edisi
-      ke-35 dari majalah Weekly Shōnen Magazine yang diterbitkan Kodansha pada
-      tanggal 1 Agustus 2018.[1] Kaneshiro telah dikenal melalui karyanya yang
-      sebelumnya, seperti Kami-sama no Iu Tōri.[2] Nomura sendiri merupakan
-      mantan asisten dari mangaka pencipta seri Attack on Titan, Hajime Isayama.
-      Isayama sendiri memuji Nomura dengan mengatakan bahwa Blue Lock merupakan
-      seri yang "sangat menarik" dan dia ingin agar banyak orang untuk
-      membacanya, terlepas dari apakah orang tersebut penggemar sepak bola
-      ataupun bukan.[3] Volume pertamanya diterbitkan oleh Kodansha pada tanggal
-      16 November 2018.[4]
-    </p>
-    <div class="Character" id="Character">
-      <h1>Character</h1>
-    </div>
+    <!-- AKHIR NAVBARNYA -->
 
-    <img src="/img/th (1).png" alt="isagi" />
-    <img src="/img/tk (1).png" alt="" />
+    <!-- HOMENYA -->
+    <section id="Home">
+      <div class="Home py-5">
+        <h1>HOME</h1>
+        <img src="/img/blue.png" class="rounded mx-auto d-block" alt="blue" />
+        <p>
+          <br />
+          Blue Lock (Japanese: ブルーロック, Hepburn: Burū Rokku) (stylized as
+          BLUELOCK) is a Japanese manga series written by Muneyuki Kaneshiro and
+          illustrated by Yusuke Nomura. It has been serialized in Kodansha's
+          Weekly Shōnen Magazine since August 2018, with its chapters collected
+          in 22 tankōbon volumes as of December 2022. An anime television series
+          adaptation produced by Eight Bit premiered in October 2022.
+        </p>
+      </div>
+    </section>
+    <!-- AKHIR HOME -->
+
+    <!-- ABOUTNYA -->
+    <section id="About">
+      <div class="About py-5">
+        <h1>ABOUT</h1>
+        <img src="/img/lock.png" class="rounded mx-auto d-block" alt="blue" />
+        <p>
+          <br />
+          Blue Lock adalah sebuah seri manga yang ditulis oleh Muneyuki
+          Kaneshiro dan diilustrasikan oleh Yusuke Nomura. Seri ini mulai dimuat
+          dalam edisi ke-35 dari majalah Weekly Shōnen Magazine yang diterbitkan
+          Kodansha pada tanggal 1 Agustus 2018.[1] Kaneshiro telah dikenal
+          melalui karyanya yang sebelumnya, seperti Kami-sama no Iu Tōri.[2]
+          Nomura sendiri merupakan mantan asisten dari mangaka pencipta seri
+          Attack on Titan, Hajime Isayama. Isayama sendiri memuji Nomura dengan
+          mengatakan bahwa Blue Lock merupakan seri yang "sangat menarik" dan
+          dia ingin agar banyak orang untuk membacanya, terlepas dari apakah
+          orang tersebut penggemar sepak bola ataupun bukan.[3] Volume
+          pertamanya diterbitkan oleh Kodansha pada tanggal 16 November 2018.[4]
+        </p>
+      </div>
+    </section>
+    <!-- AKHIR ABOUT -->
+
+    <!-- CHARACTERNYA -->
+    <div class="container-fluid py-5" id="Character">
+      <div class="container">
+        <div class="row left">
+          <div class="card-group">
+            <div class="card">
+              <img src="/img/th (1).png" class="card-img-top" alt="Isagi" />
+              <div class="card-body">
+                <h5 class="card-title">ISAGI</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/Nagi.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">NAGI</h5>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/tk (1).png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">BACHIRA</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This card has even longer
+                  content than the first to show that equal height action.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- AKHIR CHARACTER -->
+    <!-- Gallery -->
+    <div class="container-fluid py-5" id="Gallery">
+      <div class="container">
+        <div class="row left">
+          <div class="card-group">
+            <div class="card">
+              <img src="/img/bachira.jpg" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/nagi-icon.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/yoichi-isagi.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This card has even longer
+                  content than the first to show that equal height action.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- AKHIR Gallery -->
+    <!-- CONTACTNYA -->
+    <div
+      class="container-fluid py-5 mt-5 content-subscribe text-light --bs-primary-bg-subtle"
+      id="contact"
+    >
+      <div class="container">
+        <h5 class="text-center mb-4">Kunjungi Kami</h5>
+        <div class="row justify-content-center">
+          <div class="col-sm-1 d-flex justify-content-center mb-2">
+            <i class="bi bi-facebook fs-4"></i>
+          </div>
+          <div class="col-sm-1 d-flex justify-content-center mb-2">
+            <i class="bi bi-instagram fs-4"></i>
+          </div>
+          <div class="col-sm-1 d-flex justify-content-center mb-2">
+            <i class="bi bi-twitter fs-4"></i>
+          </div>
+          <div class="col-sm-1 d-flex justify-content-center mb-2">
+            <i class="bi bi-youtube fs-4"></i>
+          </div>
+        </div>
+
+        <h5 class="text-center mt-5"><b>Subscribe</b></h5>
+        <p class="text-center font-monospace mb-0">
+          untuk informasi tentang promo
+        </p>
+        <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Ketikan Email"
+              aria-label="Recipient's username"
+              aria-describedby="button-addon2"
+            />
+            <button
+              class="btn btn-warning text-light"
+              type="button"
+              id="button-addon2"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- AKHIR CONTACTNYA -->
+    <div class="container-fluid py-3 bg-dark text-light">
+      <div class="container text-center">
+        <label>@2022BLUELOCK</label>
+      </div>
+    </div>
   </body>
 </html>
